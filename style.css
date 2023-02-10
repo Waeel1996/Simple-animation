@@ -10,7 +10,7 @@ body
 {
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     min-height: 100vh;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(img/backimg.jpg);
@@ -39,16 +39,21 @@ h1
 }    
 h1 span
 {
-    transition: 0.5s;
+    transition: 2s;
+    
 }
 h1:hover span:nth-child(1)
 {
     margin-right: 10px;
+    
 
 }
 h1:hover span:nth-child(1):after
 {
+    transition: 5s;
     content: "Welcome to my Portfolio";
+    
+    
 }
 h1:hover span:nth-child(2)
 {
