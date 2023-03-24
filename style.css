@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Mochiy+Pop+One&family=Oswald&family=PT+Serif&family=Poppins&family=Roboto+Mono:wght@500&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fjalla+One&family=Mochiy+Pop+One&family=Oswald&family=PT+Serif&family=Roboto+Mono:wght@500&family=Roboto:wght@100&display=swap');
-*
-{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body
-{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(img/backimg.jpg);
-       
+
 }
-h1
-{
+
+h1 {
     font-size: 6em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background: linear-gradient(90deg,#ff0000,#ffff00,#00dbde,#ff00f3,#0033ff,#ff00c4,#ff0000);
+    background: linear-gradient(90deg, #ff0000, #ffff00, #00dbde, #ff00f3, #0033ff, #ff00c4, #ff0000);
     letter-spacing: 10px;
     cursor: pointer;
     text-transform: uppercase;
@@ -29,33 +29,35 @@ h1
     background-size: 300% 300%;
     animation: animate 8s linear infinite;
 }
-@keyframes animate{
-    0%{
-        background-position:  0%;
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
     }
-    100%{
+
+    100% {
         background-position: 300%;
     }
-}    
-h1 span
-{
-    transition: 2s;
-    
 }
-h1:hover span:nth-child(1)
-{
-    margin-right: 10px;
-    
+
+h1 span {
+    transition: 2s;
 
 }
-h1:hover span:nth-child(1):after
-{
+
+h1:hover span:nth-child(1) {
+    margin-right: 10px;
+
+
+}
+
+h1:hover span:nth-child(1):after {
     transition: 5s;
     content: "Welcome to my Portfolio";
-    
-    
+
+
 }
-h1:hover span:nth-child(2)
-{
+
+h1:hover span:nth-child(2) {
     margin-left: 40px;
 }
